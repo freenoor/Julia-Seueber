@@ -1,0 +1,34 @@
+::-moz-selection {
+    background-color: $primary;
+  }
+  
+  ::selection {
+    background-color: $primary;
+  }
+  
+  select::-ms-expand {
+    display: none;
+  }
+
+  ::-webkit-scrollbar {
+    -webkit-appearance: none;
+    }
+    ::-webkit-scrollbar {
+    width: 10px;
+    }
+      
+    ::-webkit-scrollbar-track {
+    background: white;
+    }
+      
+    ::-webkit-scrollbar-thumb {
+    background: $primary;
+    @media(min-width: 992.98px) {
+      height:237px;
+    }
+    height: 100px;
+    }
+      
+    ::-webkit-scrollbar-thumb:hover {
+    background: #00263db7;
+    }
